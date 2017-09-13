@@ -10,7 +10,9 @@ for (i = 0; i >= 0; i++){
 
 const classmates = ["Bridjet", "Nathan", "Matias", "Mike", "Jason", "Reuben", "Ben", "Lane", "John", "Chris", "Terry", "Ann", "Katelyn", "Naomi", "Jeff"];
 for (i = 0; i < classmates.length; i++){
-	console.log(classmates[i]);
+	if (i % 2 === 0){
+		console.log(classmates[i]);		
+	};
 };
 
 const menu = [{name: "pizza", glutenFree: false},
